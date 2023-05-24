@@ -1,0 +1,82 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+
+    min-height: 100vh;
+}
+
+.giris-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 30rem;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+.kullaniciadi{
+    display: block;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.formgroup{
+    padding: 30px;
+}
+
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    margin: 5px;
+}
+
+
+.notrobot{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tracker{
+    color: red;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.tracker .validated{
+    color: green;
+}
+
+
+
+.elementToFadeInAndOut {
+    opacity: 1;
+    animation: fade 1s linear;
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50%{ opacity: 1 }
+}
+

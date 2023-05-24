@@ -1,0 +1,29 @@
+.nav-outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5a189a;
+}
+
+
+
+
+.menu{
+    align-items: flex-end;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+
+.menu ul li a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+
+}
